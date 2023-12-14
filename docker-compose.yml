@@ -1,0 +1,7 @@
+version: '3'
+services:
+  translate:
+    image: python:3.10.6
+    volumes:
+      - /home/translateService:./
+    command: ./start.sh 172.17.0.1:10086

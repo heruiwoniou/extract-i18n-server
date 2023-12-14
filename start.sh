@@ -1,5 +1,6 @@
 #!/bin/bash
-pip install -r requirements.txt
+
+pip install -r ./requirements.txt
 
 if [ "$#" -gt 0 ]; then
     PROXY_ARG="--proxy $1"

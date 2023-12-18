@@ -5,7 +5,7 @@ services:
     environment:
       - PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
     ports:
-      - 8081:8081
+      - 9877:9877
     working_dir: /home/translateService
     volumes:
       - ./:/home/translateService
